@@ -3,8 +3,8 @@
 
 
 # Resources #
--Data Source: MechaCar_mpg.csv,Suspension_Coil.csv.
--Data Tools: tidyverse, dplyr, ggplot2 and MechaCarChallenge.RScript.
+-Data Source: MechaCar_mpg.csv,Suspension_Coil.csv.<br>
+-Data Tools: tidyverse, dplyr, ggplot2 and MechaCarChallenge.RScript.<br>
 -Software: RStudio and R.
 
 ## Linear Regression to Predict MPG
