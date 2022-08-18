@@ -1,7 +1,11 @@
 # Module-15-Challenge  MechaCar_Statistical_Analysis
+# Overview of Project #
 
 
-
+# Resources #
+• Data Source: MechaCar_mpg.csv,Suspension_Coil.csv.
+• Data Tools: tidyverse, dplyr, ggplot2 and MechaCarChallenge.RScript.
+• Software: RStudio and R.
 
 ## Linear Regression to Predict MPG
 
