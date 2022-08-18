@@ -3,7 +3,7 @@
 
 
 # Resources #
--** Data Source**: MechaCar_mpg.csv,Suspension_Coil.csv.<br>
+- **Data Source**: MechaCar_mpg.csv,Suspension_Coil.csv.<br>
 - **Data Tools**: tidyverse, dplyr, ggplot2 and MechaCarChallenge.RScript.<br>
 - **Software**: RStudio and R.
 
