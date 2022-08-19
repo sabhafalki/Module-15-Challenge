@@ -22,15 +22,15 @@ The analysis consisted of the following:
 ![Summery](/Image/Summery.png) <br><br>
 
 **1) Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**<br>
-Using the Pr(>|t|) values generated in the linear regression model, we see that vehicle length and ground clearance, along with the intercept, provide a non-random amount of variance to the mpg values in the dataset.
-- vehicle_length with p-value = 2.60e-12 which is « 0.05
-- ground_clearance with p-value = 5.21e-08 which is « 0.05
+- Using the Pr(>|t|) values generated in the linear regression model, we see that vehicle length and ground clearance, along with the intercept, provide a non-random amount of variance to the mpg values in the dataset.
+ - vehicle_length with p-value = 2.60e-12 which is « 0.05
+ - ground_clearance with p-value = 5.21e-08 which is « 0.05
 
 **2) Is the slope of the linear model considered to be zero? Why or why not?**<br>
-Since p-value is less than zero (5.35e-11), the slope is not equal to zero. There would be no correlation between mpg and the independent variables. 
+- Since p-value is less than zero (5.35e-11), the slope is not equal to zero. There would be no correlation between mpg and the independent variables. 
 
 **3) Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**<br>
-According to the summary output, the r-squared value is 0.71, which predicts that approximatley 71% of all mpg predictions will be correct when using this linear model.
+- According to the summary output, the r-squared value is 0.71, which predicts that approximatley 71% of all mpg predictions will be correct when using this linear model.
 
 ## Summary Statistics on Suspension Coils
 **Total Summary Table**<br>
@@ -40,6 +40,7 @@ According to the summary output, the r-squared value is 0.71, which predicts tha
 ![lot_summary](/Image/lot_summary.png) <br><br>
 1) The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?<br>
 - The summary statistical data for suspension coils across all lots, manufacturing is meeting specifications. However, when broken down to individual lot variance, lots 1 & 2 meet specs, but lot 3 is out of spec with a variance of 170.29 psi, exceeding the 100 psi variance max design specification.
+
 ## T-Tests on Suspension Coils
 **All Three Lots Combined Test**<br>
 ![lot_all](/Image/lot_all.png) <br><br>
