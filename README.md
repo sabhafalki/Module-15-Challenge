@@ -23,8 +23,8 @@ The analysis consisted of the following:
 
 **1) Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**<br>
 - Using the Pr(>|t|) values generated in the linear regression model, we see that vehicle length and ground clearance, along with the intercept, provide a non-random amount of variance to the mpg values in the dataset.
- - vehicle_length with p-value = 2.60e-12 which is « 0.05
- - ground_clearance with p-value = 5.21e-08 which is « 0.05
+   1. vehicle_length with p-value = 2.60e-12 which is « 0.05
+   2. ground_clearance with p-value = 5.21e-08 which is « 0.05
 
 **2) Is the slope of the linear model considered to be zero? Why or why not?**<br>
 - Since p-value is less than zero (5.35e-11), the slope is not equal to zero. There would be no correlation between mpg and the independent variables. 
