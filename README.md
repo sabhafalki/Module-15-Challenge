@@ -43,16 +43,16 @@ According to the summary output, the r-squared value is 0.71, which predicts tha
 ## T-Tests on Suspension Coils
 **All Three Lots Combined Test**<br>
 ![lot_all](/Image/lot_all.png) <br><br>
-The p value is over the significance level of 0.05 which means that the null hypothesis cannot be rejected and the mean of all the lots combined is statistically similar to the population mean of 1500.
+The p value is over the significance level of 0.05 which means that the null hypothesis cannot be rejected and the mean of all the lots combined is statistically similar to the population mean of 1500.<br>
 **Lot 1 Test**<br>
 ![lot1](/Image/lot1.png) <br><br>
-The p value is over the significance level of 0.05 which means that the null hypothesis cannot be rejected and the mean of lot 1 is statistically similar to the population mean of 1500.
+The p value is over the significance level of 0.05 which means that the null hypothesis cannot be rejected and the mean of lot 1 is statistically similar to the population mean of 1500.<br>
 **Lot 2 Test**<br>
 ![lot2](/Image/lot2.png) <br><br>
-The p value is over the significance level of 0.05 which means that the null hypothesis cannot be rejected and the mean of lot 2 is statistically similar to the population mean of 1500.
+The p value is over the significance level of 0.05 which means that the null hypothesis cannot be rejected and the mean of lot 2 is statistically similar to the population mean of 1500.<br>
 **Lot 3 Test**<br>
 ![lot3](/Image/lot3.png) <br><br>
-This time, the p value is under the significance level of 0.05 which means that the null hypothesis can be rejected and the mean of lot 3 is not statistically similar to the population mean of 1500.
+This time, the p value is under the significance level of 0.05 which means that the null hypothesis can be rejected and the mean of lot 3 is not statistically similar to the population mean of 1500.<br>
 ## Study Design: MechaCar vs Competition
 In this section,comparing MechaCar to its competitor’s other metrics that could be of interest to a consumer,could include cost, car color, city fuel efficiency, highway fuel efficiency, horsepower, maintenance cost, or safety rating.
 1) What metric or metrics are you going to test?
