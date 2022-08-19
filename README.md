@@ -38,15 +38,30 @@ According to the summary output, the r-squared value is 0.71, which predicts tha
 
 **Lot Summary Table**<br>
 ![lot_summary](/Image/lot_summary.png) <br><br>
-
+1) The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?<br>
+The summary statistical data for suspension coils across all lots, manufacturing is meeting specifications. However, when broken down to individual lot variance, lots 1 & 2 meet specs, but lot 3 is out of spec with a variance of 170.29 psi, exceeding the 100 psi variance max design specification.
 ## T-Tests on Suspension Coils
+**All Three Lots Combined Test**<br>
 ![lot_all](/Image/lot_all.png) <br><br>
 
+**Lot 1 Test**<br>
 ![lot1](/Image/lot1.png) <br><br>
 
+**Lot 2 Test**<br>
 ![lot2](/Image/lot2.png) <br><br>
 
+**Lot 3 Test**<br>
 ![lot3](/Image/lot3.png) <br><br>
 
 ## Study Design: MechaCar vs Competition
+In this section,comparing MechaCar to its competitor’s other metrics that could be of interest to a consumer,could include cost, car color, city fuel efficiency, highway fuel efficiency, horsepower, maintenance cost, or safety rating.
+1) What metric or metrics are you going to test?
+- The costs of vehicles will be compared to their fuel efficiency, safety rating, and technology package.
+2) What is the null hypothesis or alternative hypothesis?
+- The null hypothesis is that the mean of the safety rating is zero.The Alternative Hypothesis is that they are not all the same.
+3) What statistical test would you use to test the hypothesis? And why?
+- Multiple linear regression would show how the variables impact the safety ratings for MechaCar and their competitors.
+A  t-test allows us to test whether a sample mean significantly differs from a hypothesized value.
+4) What data is needed to run the statistical test?
+- A random sample of n > 30 for MechaCar and their competitor, would need to be collected including the safety ratings, highway fuel efficiency, and horsepower plus running the data through RStudio.
 
