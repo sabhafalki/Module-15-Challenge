@@ -8,7 +8,7 @@
 - **Software**: RStudio and R.
 
 ## Linear Regression to Predict MPG
-
+![initial](bikesharing/Image/Checout_times_users.png) <br><br>
 
 ## Summary Statistics on Suspension Coils
 
